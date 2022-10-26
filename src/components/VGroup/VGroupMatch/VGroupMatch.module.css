@@ -1,0 +1,122 @@
+.groupMatchContainer {
+    position: relative;
+    display: flex;
+    border: 1px solid #777777;
+}
+
+.infoButton {
+    position: absolute;
+    top: 15%;
+    left: 48.2%;
+    z-index: 1;
+}
+
+.infoButtonInfoShowing {
+    position: absolute;
+    top: 30%;
+    left: 48.2%;
+    z-index: 1;
+}
+
+.unstyleButton {
+    all: unset;
+    width: 100%;
+    height: 100%;
+}
+
+.teamAndPicksDiv1 {
+    float: left;
+    width: 40%;
+}
+
+.teamAndPicksDiv2 {
+    position: absolute;
+    float: left;
+    left: 60%;
+    width: 40%;
+}
+
+.teamName {
+    margin: 4px 0 6px 0;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.teamNameBottomBorder {
+    margin: 4px 0 4px 0;
+    word-wrap: break-word;
+    text-align: center;
+    padding-bottom: 4px;
+    border-bottom: 1px dotted #C9C9BE;
+}
+
+.champDivBo1 {
+    padding-left: 3.65em;
+}
+
+.champDivBo3 {
+    padding-left: 3em;
+}
+
+.champImg {
+    margin-right: 4px;
+}
+
+.champWin {
+    border: 2px solid #FFD700;
+}
+
+.champLose {
+    border: 2px solid #303030;
+}
+
+.teamScoreAndBans1 {
+    position: absolute;
+    float: left;
+    left: 39.4%;
+    width: 10%;
+    height: 98%;
+    width: 10%;
+    background: #181818;
+    text-align: center;
+    border-left: 1px solid #C9C9BE;
+    padding-top: 2px;
+}
+
+.teamScore {
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #C9C9BE;
+}
+
+.banChamp {
+    padding-left: 2px;
+    position: absolute;
+    bottom: 0.4em;
+    left: 0.25em;
+}
+
+.teamScoreAndBans2 {
+    position: absolute;
+    float: left;
+    right: 39.4%;
+    width: 10%;
+    height: 98%;
+    background: #181818;
+    text-align: center;
+    border-left: 1px solid #C9C9BE;
+    border-right: 1px solid #C9C9BE;
+    padding-top: 2px;
+}
+
+.fontBase {
+    color: #C0C0C0;
+}
+
+.fontWin {
+    color: #C8FFC8;
+}
+
+.fontLose {
+    font-weight: lighter;
+    color: #FFD8D8;
+}

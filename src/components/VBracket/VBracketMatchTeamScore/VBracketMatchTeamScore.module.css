@@ -1,0 +1,79 @@
+.bracketMatchTeamDiv {
+    display: flex;
+    border: 1px solid #C9C9BE;
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    color: #E0E0CD;
+    vertical-align: middle;
+}
+
+.bracketMatchTeamDivScoreOnly {
+    max-width: 8.2em;
+    display: flex;
+    border: 1px solid #C9C9BE;
+    border-left: none;
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    color: #E0E0CD;
+    vertical-align: middle;
+}
+
+.teamName {
+    padding: 3px;
+    padding-top: 5px;
+    width: 9em;
+    word-wrap: break-word;
+    padding-left: 8px;
+}
+
+.championsDiv {
+    width: 6em;
+    height: 100%;
+    padding-top: 2px;
+    padding-left: 3.5px;
+    border-left: 1px solid #C9C9BE;
+}
+
+.championsDivScoreOnly {
+    width: 6em;
+    height: 100%;
+    padding-top: 2px;
+    padding-left: 3.5px;
+}
+
+.championsDivNoChampions {
+    width: 6.3em;
+    height: 100%;
+}
+
+.champion {
+    float: left;
+    width: 2em;
+}
+
+.championWin {
+    border: 2px solid #FFD700;
+}
+
+.championLose {
+    border: 2px solid #303030;
+}
+
+.teamScore {
+    width: 1.75em;
+    background: #181818;
+    text-align: center;
+    border-left: 1px solid #C9C9BE;
+    padding-top: 4px;
+}
+
+.fontWin {
+    color: #C8FFC8;
+}
+
+.fontLose {
+    font-weight: lighter;
+    color: #FFD8D8;
+}

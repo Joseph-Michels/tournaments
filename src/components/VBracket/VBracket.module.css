@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.spanCols2 { grid-column: span 2; }
+.spanCols3 { grid-column: span 3; }
+.spanCols4 { grid-column: span 4; }
+.spanCols9 { grid-column: span 9; }
+
+.spanRows2 { grid-row: span 2; }
+.spanRows3 { grid-row: span 3; }
+.spanRows4 { grid-row: span 4; }
+.spanRows5 { grid-row: span 5; }
+.spanRows6 { grid-row: span 6; }
+.spanRows7 { grid-row: span 7; }
+.spanRows8 { grid-row: span 8; }
+.spanRows9 { grid-row: span 9; }
+.spanRows10 { grid-row: span 10; }
+.spanRows11 { grid-row: span 11; }
+.spanRows12 { grid-row: span 12; }
+.spanRows13 { grid-row: span 13; }
+.spanRows14 { grid-row: span 14; }
+.spanRows15 { grid-row: span 15; }
+.spanRows16 { grid-row: span 16; }
+.spanRows17 { grid-row: span 17; }
+.spanRows18 { grid-row: span 18; }
+.spanRows19 { grid-row: span 19; }
+.spanRows20 { grid-row: span 20; }
+.spanRows29 { grid-row: span 29; }
+
+.lineTop { border-top: 1px solid #E0E0CD; }
+.lineLeft { border-left: 1px solid #E0E0CD; }
+.lineRight { border-right: 1px solid #E0E0CD; }
+.lineBot { border-bottom: 1px solid #E0E0CD; }
+
+.bracketHeader {
+    border: 0 solid solid #C9C9BE;
+    padding-top: 8px;
+    background: #181818;
+    text-align: center;
+    color: #E0E0CD;
+}
+
+.bracketGrid {
+    display: grid;
+    grid-auto-flow: column;
+    overflow: auto;
+    overflow-y: hidden;
+    line-height: 1;
+    max-width: 100%;
+    min-height: 500px;
+}
+
+/* min-width = sum(columns) + 2.5em */
+
+.bracketGridDE4 {
+    grid-template-rows: repeat(21, calc(1em + 1px));
+    grid-template-columns: 1em 18em 1.5em 1em 18em 1.5em 1em 18em 8.2em;
+    min-width: 70.7em;
+}
+
+.bracketGridDE6 {
+    grid-template-rows: repeat(28, calc(1em + 1px));
+    grid-template-columns: 1em 18em 1.5em 1em 18em 1.5em 1em 18em 1.5em 1em 18em 8.2em;
+    min-width: 91.2em;
+}
+
+.bracketGridDE8 {
+    grid-template-rows: repeat(39, calc(1em + 1px));
+    grid-template-columns: 1em 18em 1.5em 1em 18em 1.5em 1em 18em 1.5em 1em 18em 1.5em 1em 18em 8.2em;
+    min-width: 111.7em;
+}
+
+.bracketGridSE3 {
+    grid-template-rows: repeat(8, calc(1em + 1px));
+    grid-template-columns: 18em 1.5em 1em 18em;
+    min-width: 41em;
+}

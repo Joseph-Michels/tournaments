@@ -1,0 +1,71 @@
+.headerDiv {
+    background-color: #141414;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.headerDiv > * {
+    float: left;
+}
+
+.title {
+    width: 24em;
+    margin: 12px;
+    margin-right: 6em;
+}
+
+.headerMenuDiv {
+    min-width: 12em;
+    border-left: 2px solid #606060;
+    border-right: 2px solid #606060;
+    padding: 0 16px 0 16px;
+}
+
+.name {
+    font-size: x-large;
+    color: white;
+}
+
+.date {
+    font-size: medium;
+    color: #E0E0CD;
+}
+
+.tournamentDropdown {
+    margin-top: 4px;
+}
+
+.tournamentDropdown option {
+    background-color: #202020;
+    color: #E0E0CD;
+}
+
+.headerDiv button {
+    margin-top: 1.5em;
+    width: 6em;
+    background-color: #202020;
+    border-width: 2px 0 0 2px;
+    border-color: black;
+    color: #E0E0CD;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.headerDiv .lastButton {
+    border-right: 2px solid black;
+}
+
+.headerDiv .activeTab {
+    background-color: #303030;
+    font-weight: bolder;
+}
+
+.groupMargin {
+    margin: 0 24px 0 16px;
+    float: left;
+}
+
+.bracketMargin {
+    margin: 0 16px 0 16px;
+    float: left;
+}

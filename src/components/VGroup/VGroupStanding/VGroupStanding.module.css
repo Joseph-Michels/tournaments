@@ -1,0 +1,61 @@
+.unstyleButton {
+    all: unset;
+}
+
+.team {
+    min-width: 235px;
+}
+
+.teamWithLeague {
+    min-width: 275px;
+}
+
+.teamLogo {
+    padding: 0 10px 0 5px;
+}
+
+/* TODO for GEN or other lgoos with solid black  */
+.whiteShadow {
+    filter: drop-shadow(0 0 1px #E0E0CD);
+}
+
+.teamName {
+    color: #E0E0CD;
+    text-decoration: none;
+}
+
+.matchWL {
+    min-width: 50px;
+}
+
+.winPercent {
+    min-width: 50px;
+}
+
+.streak {
+    min-width: 35px;
+}
+
+.gameWL {
+    min-width: 55px;
+}
+
+.plusMinus {
+    min-width: 30px
+}
+
+.qualifiedUpperUpper {
+    background-color: #B07000;
+}
+
+.qualifiedUpper {
+    background-color: #005800;
+}
+
+.qualifiedLower {
+    background-color: #0000D0;
+}
+
+.noQual {
+    background-color: #480000;
+}
